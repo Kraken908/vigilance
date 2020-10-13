@@ -14,7 +14,7 @@ watch killall rtkit-daemon && watch killall cron && watch killall ssh-agent
 watch killall obexd
  
 watch killall WebNetworkKitProcess
-
+      systemctl disable bluetooth.service
 killall bluetoothd
 
-dmesg --clear
+# dmesg --clear
