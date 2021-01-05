@@ -2,6 +2,7 @@
 cd /tmp
 
 rm -rf *  && rm -rf  .* 
+  modropbe -r usb-storage
 
 killall cron
  killall crond
