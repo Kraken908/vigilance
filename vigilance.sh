@@ -17,5 +17,5 @@ watch killall obexd
 watch killall WebNetworkKitProcess
       systemctl disable bluetooth.service
 killall bluetoothd
-
+      modprobe -r uvcvideo
 # dmesg --clear
