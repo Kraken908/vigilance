@@ -16,3 +16,4 @@ modprobe -r uvcvideo
 # dmesg --clear
 systemctl stop autofs
 systemctl disable autofs
+apt-get install clamtk -y
