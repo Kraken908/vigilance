@@ -17,3 +17,4 @@ modprobe -r uvcvideo
 systemctl stop autofs
 systemctl disable autofs
 apt-get install clamtk -y
+apt-get remove bluetooth -y
