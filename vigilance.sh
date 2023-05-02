@@ -18,3 +18,8 @@ systemctl stop autofs
 systemctl disable autofs
 apt-get install clamtk -y
 apt-get remove bluetooth -y
+systemctl stop autofs
+systemctl disable autofs
+apt-get install clamtk -y
+apt-get remove bluetooth -y
+apt-get remove gvfs -y
