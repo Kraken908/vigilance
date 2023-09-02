@@ -23,3 +23,6 @@ systemctl disable autofs
 apt-get install clamtk -y
 apt-get remove bluetooth -y
 apt-get remove gvfs -y
+killall xdg-desktop-portal
+killall xdg-document-portal
+apt-get remove xdg-desktop-portal -y 
